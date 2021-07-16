@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('CenturyGothic-Italic.eot');
+	src: local('Century Gothic Italic'), local('CenturyGothic-Italic'),
+		url('CenturyGothic-Italic.eot?#iefix') format('embedded-opentype'),
+		url('CenturyGothic-Italic.woff') format('woff'),
+		url('CenturyGothic-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('CenturyGothic.eot');
+	src: local('Century Gothic'), local('CenturyGothic'),
+		url('CenturyGothic.eot?#iefix') format('embedded-opentype'),
+		url('CenturyGothic.woff') format('woff'),
+		url('CenturyGothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('CenturyGothic-Bold.eot');
+	src: local('Century Gothic Bold'), local('CenturyGothic-Bold'),
+		url('CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+		url('CenturyGothic-Bold.woff') format('woff'),
+		url('CenturyGothic-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('CenturyGothic-BoldItalic.eot');
+	src: local('Century Gothic Bold Italic'), local('CenturyGothic-BoldItalic'),
+		url('CenturyGothic-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('CenturyGothic-BoldItalic.woff') format('woff'),
+		url('CenturyGothic-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.carousel-item {
+    height: 105vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-image{
+    background-image: url(../img/slider.jpg);
+}
+
+.font-header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+    font-variant: small-caps;
+    font-feature-settings: 'cpsp' on;
+    text-transform: uppercase;
+}
+
+nav{
+    height: 64px;
+}
+
+.custom-header{
+    padding-left: 92px;
+    padding-right: 10px;
+}
+
+.mr-10{
+    margin-right: 10px;   
+}
+
+.mr-11{
+    margin-right: 11px;
+}
+
+.mr-12{
+    margin-right: 12px;
+}
+
+.mr-8{
+    margin-right: 12px;
+}
+
+.mr-7{
+    margin-right: 12px;
+}
+
+.mr-9{
+    margin-right: 9px;
+}
+
+.mr-6{
+    margin-right: 6px;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+/* .mr-41p{
+    margin-right: 200px;
+
+    padding-right: 100px;
+}
+ */
+
+ .width{
+
+    padding-left: 0;
+    flex-grow: 0 !important;
+ }
+
+ .mr-151{
+    margin-right: 141px;
+}
+
+.logo {
+    height: 35px;
+    margin-left: 9px;
+}
+
+.pos{
+    position: absolute;
+    top: 143px;
+    left: 37px;
+}
+
+.customText{
+    width: 532px;
+    height: 136px;
+    text-transform: uppercase;
+}
+
+.customText2{
+    position: absolute;
+    top: 149px;
+    left: 46px;
+    width: 428px;
+}
+
+.customContent{
+    font-family: 'Century Gothic';
+}
+
+.ContentImgSize{
+    width: 934px;
+    margin-left: 12px;
+    z-index: -5;
+}
+
+.line{
+    top: 750px;
+    width: 25px;
+    position: absolute;
+    height: 3132px;
+    z-index: -3;
+}
+
+.linePos1{
+    
+    left: 214px;
+}
+
+.linePos2{
+ 
+    left: 438px;
+}
+
+.linePos3{
+
+    left: 664px;
+}
+
+.linePos4{
+
+    left: 888px;
+}
+
+.linePos5{
+    left: 1114px;
+}
+
+.imgContent1{
+    width: 302px;
+    margin-top: -7px;
+    margin-left: -25px;
+}
+
+.custom3{
+    margin-top: 66px;
+}
+
+.masonre{
+    width: 20%;
+    padding: 0;
+}
+
+.customMansory{
+    display: flex;
+    
+}
+
+.customMap{
+    height: 100vh;
+    width: 98.82vw;
+}
+
+.customForm{
+    position: absolute;
+    height: 300px;
+    z-index: 10000;
+    top: 3450px;
+    left: 150px;
+
+}
+
+
+
+
+
+
+
